@@ -14,23 +14,6 @@ This project implements a **risk parity investment strategy** using **UK-listed 
 
 ---
 
-## Performance Metrics (Example)
-
-```
-Sharpe Ratio (annualized): 4.69
-Cumulative Return: 86.34%
-CAGR: 6.41%
-Max Drawdown: -13.45%
-Win Rate: 61.5%
-Total IBKR Fees Paid: £2,674.00
-
-Final Portfolio Weights:
-VUSA.L    70.00%
-SGLN.L    30.00%
-```
-
----
-
 ## Requirements
 
 Install dependencies:
