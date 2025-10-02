@@ -82,14 +82,6 @@ This project is for educational and research purposes only. Use at your own risk
 
 ---
 
-## Contact
-
-Created by [Your Name].  
-Feel free to fork, modify, or suggest improvements!
-
-
----
-
 ## Live Trading Bot (IBKR)
 
 A live trading script is included to automate **monthly rebalancing** of the portfolio using **Interactive Brokers (IBKR)** via the `ib_insync` API.
