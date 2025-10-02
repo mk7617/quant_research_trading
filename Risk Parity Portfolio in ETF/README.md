@@ -68,7 +68,7 @@ The script includes a built-in scheduler to run **every Monday at 9:30 AM**, or 
 ### Running the Bot
 
 ```bash
-python ibkr_trading_bot.py
+python risk_parity_portfolio_in_etf.py
 ```
 
 Ensure TWS or IB Gateway is running and connected to paper/live trading before execution. Run the script once a month to rebalace portfolio based on risk parity. 
