@@ -136,14 +136,13 @@ def rebalance():
 
     logging.info("Rebalance complete.\n")
 
-# --- Scheduler Loop (Rebalance Every Monday @ 9:30 AM) ---
 def run_scheduler():
     logging.info("Scheduler started.")
     while True:
         now = datetime.now()
         if now.weekday() == 0 and now.hour == 9 and now.minute == 30:
             rebalance()
-            time.sleep(3600)  # Avoid rebalance repetition in the same hour
+            time.sleep(3600) 
         else:
             time.sleep(30)
 
