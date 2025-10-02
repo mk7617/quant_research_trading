@@ -3,22 +3,6 @@
 This project implements a **risk parity investment strategy** using **UK-listed ETFs**, with **monthly rebalancing** and **realistic brokerage fees** (Interactive Brokers UK). The backtest simulates capital growth, allocates weights based on risk contribution, and visualizes key portfolio performance metrics.
 ---
 
-## Strategy Summary
-
-- **Portfolio Assets (default)**:
-  - `SGLN.L`  iShares Physical Gold ETC (Gold)
-  - `VUSA.L`  Vanguard S&P 500 UCITS ETF (US Equities)
-  - *(Replace with your own ETF basket as desired)*
-
-- **Initial Capital**: £1,000,000  
-- **Backtest Period**: Jan 2015 – Aug 2025  
-- **Rebalancing Frequency**: Monthly  
-- **Max Asset Weight**: 70%  
-- **Fee Model (IBKR UK)**: `max(£6, 0.05% of trade value)`  
-- **Risk Model**: Minimum-variance optimization with equal risk contribution
-
----
-
 ## Output Visuals
 
 - Portfolio value over time
